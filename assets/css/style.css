@@ -1,9 +1,6 @@
 .bg {
   background: #f5faf8;
-  border-radius: 16px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, .05);
-  backdrop-filter: blur(12.1px);
-  -webkit-backdrop-filter: blur(12.1px);
+
   /*background-image: url(https://harindu.me/assets/img/snow.webp);
   background-attachment: fixed*/
 }
