@@ -1,0 +1,146 @@
+.bg {
+  background: #f5faf8;
+  border-radius: 16px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, .05);
+  backdrop-filter: blur(12.1px);
+  -webkit-backdrop-filter: blur(12.1px);
+  /*background-image: url(https://harindu.me/assets/img/snow.webp);
+  background-attachment: fixed*/
+}
+
+.profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 150px;
+}
+
+.profile-name {
+  text-align: center;
+  padding: 10px;
+  font-family: Calibri;
+  font-weight: 700;
+  color: #4a7c5e;
+  font-size: 20px
+}
+
+.profile-about {
+  text-align: center;
+  padding: 2px;
+  font-family: Dosis, sans-serif;
+  color: #6b9a80;
+  font-size: 15px;
+  letter-spacing: 2px
+}
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border: 1px solid #d4e8e0;
+  border-width: 1px;
+  display: block;
+  border-radius: 10px;
+  font-family: Karla, sans-serif;
+  position: relative;
+  font-size: 17px;
+  width: 680px;
+  max-width: 95%;
+  transition: all .3s ease-in-out;
+  background: #fafff9;
+}
+
+
+.links-in {
+  padding: 5px;
+  border: .5px solid #ffffff00;
+  border-width: 1px;
+  width: 30px;
+  display: block;
+  border-radius: 40px;
+  left: 20px;
+  position: absolute;
+  font-size: 20px
+}
+
+.hover {
+  text-decoration: none;
+  color: #4a7c5e;
+  transition: all .3s;
+  background: #e8f5f0
+}
+
+.hover:hover {
+  text-decoration: none;
+  color: #2d5a44;
+  background: #d4e8e0;
+  transition: all .2s;
+  transform: scale(1.03)
+}
+
+.bottom-text {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #6b9a80;
+  font-family:  Calibri 
+}
+
+.link-hide {
+  text-decoration: none
+}
+
+.link-hide:hover {
+  text-decoration: none
+}
+
+@media (max-width:548px) {
+  .profile-about {
+    text-align: center;
+    padding: 2px;
+    font-family: Dosis, sans-serif;
+    color: #6b9a80;
+    font-size: 15px;
+    letter-spacing: 1px
+  }
+}
+
+.links-footer {
+  padding: 4px;
+  border: 1px solid #c8dbd2;
+  border-width: 1px;
+  width: 40px;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  margin-top: 50px;
+  color: #4a7c5e;
+  transition: color 1s;
+  transition: all .3s;
+  background: #e8f5f0
+}
+
+.links-footer:hover {
+  color: #2d5a44;
+  background: #d4e8e0;
+  transition: all .3s
+}
+
+.space {
+  padding-top: 20px
+}
+
+.drag {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  -user-drag: none
+}
